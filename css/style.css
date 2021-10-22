@@ -33,7 +33,7 @@ p {
     max-width:1000px;
 }
 .text-primary{
-    color:rgb(207, 160, 115);
+    color:rgb(216, 113, 16);
 }
 .text-primary2{
     color:rgb(61, 88, 74);
@@ -82,6 +82,23 @@ p {
 .btn-light:hover{
     background: rgb(207, 160, 115);
     color:#333;
+}
+
+.btn3{
+    
+    align-content: center;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding:13px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contact-button{
+    align-content: center;
+    
 }
 .bg-primary{
     background:rgb(61, 88, 74);
@@ -132,6 +149,10 @@ form:enabled{
     color:rgb(207, 160, 115);
 }
 
+#contact-me {
+    display: block;
+    float:right;
+}
 #showcase {
     background: url(../img/Floor\ Plan.jpg) no-repeat center center/cover;
     height: 600px;
@@ -147,6 +168,28 @@ form:enabled{
     line-height: 1.2em;
 }
 #showcase .container {
+    margin:auto;
+    max-width:1000px;
+    overflow:auto;
+    padding: 0 20px;
+}
+
+
+#showcase2 {
+    
+    height: 400px;
+    
+}
+#showcase2 .showcase-content {
+    
+    text-align:center;
+    padding-top: 20px;
+}
+#showcase2 .showcase-content h1 {
+    font-size: 35px;
+    line-height: 1.2em;
+}
+#showcase2 .container {
     margin:auto;
     max-width:1000px;
     overflow:auto;
@@ -173,7 +216,7 @@ form:enabled{
     height:100%;
     padding: 20px;
     text-align: center;
-    overflow:hidden;
+    
 }
 #history-info .info-content p{
     padding-bottom:30px;
