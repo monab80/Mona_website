@@ -177,20 +177,20 @@ form:enabled{
 
 #showcase2 {
     
-    height: 500px;
+    height: 400px;
     
 }
 #showcase2 .showcase-content {
     
     text-align:center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #showcase2 .showcase-content h1 {
     font-size: 35px;
     line-height: 1.2em;
 }
 #showcase2 .container {
-    margin:auto;
+   
     max-width:1000px;
     overflow:auto;
     padding: 0 20px;
